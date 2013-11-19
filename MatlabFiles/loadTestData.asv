@@ -1,0 +1,5 @@
+SongAnalysis = h5read('subset_msd_summary_file.h5', '/analysis/songs/');
+SongMetadata = h5read('subset_msd_summary_file.h5', '/metadata/songs/');
+
+makeBigData;
+

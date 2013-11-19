@@ -1,0 +1,14 @@
+bigData = X.duration
+
+bigData = [bigData X.end_of_fade_in];
+bigData = [bigData double(X.key)]
+bigData = [bigData X.loudness];
+bigData = [bigData X.start_of_fade_out]
+bigData = [bigData X.tempo];
+bigData = [bigData double(X.time_signature)]
+
+bigData = [bigData Y.artist_familiarity];
+bigData = [bigData Y.artist_hotttnesss]
+bigData = [bigData Y.song_hotttnesss];
+
+%save('bigData','bigData');
