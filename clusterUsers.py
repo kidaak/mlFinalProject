@@ -3,9 +3,10 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn import metrics
 from sklearn.metrics import pairwise_distances
+from sklearn.decomposition import PCA
 
 
-LIMIT = 100000
+LIMIT = 1000
 
 f = open('userFeatureVectors.txt', 'r')
 row = []
@@ -33,6 +34,10 @@ spData = np.array(data)
 mtx = sparse.coo_matrix((spData,(spRow,spCol)))
 
 print("Done Reading")
+
+pca = PCA(n_components=3)
+pca.fit(mtx.toarray())
+print(pca.explained_variance_ratio_)
 
 for clusters in range(2,50):
 	num_clusters = clusters
