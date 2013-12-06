@@ -6,29 +6,31 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as pl
 from sklearn.cluster import SpectralClustering
 from mpl_toolkits.mplot3d import Axes3D
+import itertools
 
 def plot(mtx,labels):
 	pca = PCA(n_components=3)
 	pca.fit(mtx)
 	print(pca.explained_variance_ratio_)
 	simple = pca.transform(mtx)
-	use_colours = {0: "red", 1: "green", 2: "blue", 3: "yellow", 4:"cyan", 5:"magenta", 6:"black"}
+	color_iter = itertools.cycle(['r', 'g', 'b', 'c', 'm'])
 	fig = pl.figure()
 	ax = fig.add_subplot(111, projection='3d')
-	ax.scatter(simple[:,0],simple[:,1], simple[:,2], c=[use_colours[x] for x in labels])
+	ax.scatter(simple[:,0],simple[:,1], simple[:,2], c=[color for color in color_iter])
 	pl.show()
 
 def main():
 	f= sio.loadmat('/home/dmitriy/workspace/MLFinalProject/MatlabFiles/finalVectors.mat')
 
 	full = np.nan_to_num(np.matrix(f['finalVectors']))
-	fullSplit = np.array_split(full, 180)
+	fullSplit = np.array_split(full, 360)
 
 	print("Done Reading")
 	mtx = fullSplit[0]
 	mtx /= np.max(np.abs(mtx),axis=0)
+	print np.ptp(mtx, axis=0)
 	i=0
-	for i in range(2,25):
+	for i in range(19,20):
 		num_clusters=i
 		spectral = SpectralClustering(n_clusters=num_clusters, affinity="rbf")
 		spectral.fit(mtx)

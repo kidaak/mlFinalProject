@@ -22,7 +22,7 @@ def main():
 	f= sio.loadmat('/home/dmitriy/workspace/MLFinalProject/MatlabFiles/finalVectors.mat')
 
 	full = np.nan_to_num(np.matrix(f['finalVectors']))
-	fullSplit = np.array_split(full, 36)
+	fullSplit = np.array_split(full, 180)
 
 	print("Done Reading")
 	mtx = fullSplit[0]
@@ -34,9 +34,9 @@ def main():
 		ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
 		ClusteringKmeans.fit(mtx)
 		result = ClusteringKmeans.labels_
-		silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
+		#silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
 		plot(mtx,result)
-		print("Clusters:", clusters, "Silhouette Score:", silhouette, "Retest Error:", errors)
+		print("Clusters:", clusters, "Retest Error:", errors)
 
 	# num_clusters = 3
 	# ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
