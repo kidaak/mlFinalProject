@@ -1,0 +1,102 @@
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-5711473604684063744/test.txt
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-6357953240828967936/test.txt
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-3006098513001977856/test.txt
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-3006098513001977856/refresh
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 1
+Dec 7, 2013 6:30:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 1
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-202086095065716736/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-679575625671954432/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-5522976477800295424/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-5070957388891844608/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-6877485833670437888/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-7206196568949893120/test.txt
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-5647499223722970112/test.txt
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileDataModel for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileDataModelTest-5647499223722970112/test.txt
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading file info...
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Read lines: 15
+Dec 7, 2013 6:30:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 6 users

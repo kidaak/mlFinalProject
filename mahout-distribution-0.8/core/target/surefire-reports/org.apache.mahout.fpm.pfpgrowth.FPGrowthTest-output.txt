@@ -1,0 +1,76 @@
+[(X,22), (Y,14)]
+Dec 7, 2013 6:37:24 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique items 2
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique pruned items 2
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Nodes in the FP Tree: 3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 1
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 2 Patterns with Least Support 14
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 2 Patterns with Least Support 22
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Tree Cache: First Level: Cache hits=1 Cache Misses=2
+[(X,33), (Y,25), (Z,11)]
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique items 3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique pruned items 3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Nodes in the FP Tree: 4
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 2
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 1 Patterns with Least Support 11
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 1
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 3 Patterns with Least Support 25
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 3 Patterns with Least Support 33
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Tree Cache: First Level: Cache hits=3 Cache Misses=3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique items 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique pruned items 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Nodes in the FP Tree: 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Tree Cache: First Level: Cache hits=0 Cache Misses=0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique items 5
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique pruned items 5
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Nodes in the FP Tree: 12
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 4
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 1 Patterns with Least Support 3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 3
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 3 Patterns with Least Support 4
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 2
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 7 Patterns with Least Support 5
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 1
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 5 Patterns with Least Support 6
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 0
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 6 Patterns with Least Support 6
+Dec 7, 2013 6:37:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Tree Cache: First Level: Cache hits=10 Cache Misses=5

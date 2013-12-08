@@ -1,0 +1,6 @@
+Dec 7, 2013 6:30:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileReadonlyIDMigrator for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileIDMigratorTest-6353621163017436160/test.txt
+Dec 7, 2013 6:31:01 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileReadonlyIDMigrator for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileIDMigratorTest-8620788207226420224/test.txt
+Dec 7, 2013 6:31:01 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileReadonlyIDMigrator for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileIDMigratorTest-4522834614872727552/test.txt

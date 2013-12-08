@@ -1,0 +1,8 @@
+Dec 7, 2013 6:36:08 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:36:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/points Out: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/output Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@362f0d54 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:36:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/output/1 Out: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/output/bottomLevelCluster/1 Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@59c208b0 t1: 2.1 t2: 2.0
+Dec 7, 2013 6:36:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/output/0 Out: file:/tmp/mahout-ClusterOutputPostProcessorTest-2090286345278698496/output/bottomLevelCluster/0 Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@1fc4f0f8 t1: 2.1 t2: 2.0

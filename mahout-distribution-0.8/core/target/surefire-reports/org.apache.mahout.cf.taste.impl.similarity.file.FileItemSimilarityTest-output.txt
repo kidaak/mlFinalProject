@@ -1,0 +1,8 @@
+Dec 7, 2013 6:31:42 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileItemSimilarity for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileItemSimilarityTest-1108734097535272960/test.txt
+Dec 7, 2013 6:31:42 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileItemSimilarity for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileItemSimilarityTest-6991554707041471488/test.txt
+Dec 7, 2013 6:31:44 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileItemSimilarity for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileItemSimilarityTest-6202671215366912000/test.txt
+Dec 7, 2013 6:31:44 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Creating FileItemSimilarity for file /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FileItemSimilarityTest-5704039956646925312/test.txt

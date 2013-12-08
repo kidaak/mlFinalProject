@@ -1,0 +1,52 @@
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@1e79ed7f
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@1e79ed7f, GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@56d73c7a
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@1e79ed7f, org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@56d73c7a, GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@4cc39a20
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@1e79ed7f, GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@56d73c7a, org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@4cc39a20]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@75e845c2
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@75e845c2]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@643c0007
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@75e845c2, org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@643c0007]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@1f25fefa
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@1f25fefa, org.apache.mahout.cf.taste.impl.similarity.GenericItemSimilarity@75e845c2, org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@643c0007]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users

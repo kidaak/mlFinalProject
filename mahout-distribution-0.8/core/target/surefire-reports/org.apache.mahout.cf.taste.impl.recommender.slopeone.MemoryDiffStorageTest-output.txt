@@ -1,0 +1,36 @@
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...

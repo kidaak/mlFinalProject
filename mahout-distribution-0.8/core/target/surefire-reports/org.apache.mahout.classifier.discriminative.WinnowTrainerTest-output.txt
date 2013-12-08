@@ -1,0 +1,20 @@
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Winnow update negative: {0:0.5}
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Model:   0.5  1.0  1.0 C: 0.0
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Winnow update negative: {0:0.5,2:0.5}
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Model:   0.25  1.0  0.5 C: 0.0
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Winnow update negative: {0:0.5,1:0.5}
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Model:   0.125  0.5  0.5 C: 0.0
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Winnow update negative: {0:0.5,2:0.5}
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Model:   0.0625  0.5  0.25 C: 0.0
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Winnow update negative: {0:0.5,1:0.5}
+Dec 7, 2013 6:32:00 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Model:   0.03125  0.25  0.25 C: 0.0

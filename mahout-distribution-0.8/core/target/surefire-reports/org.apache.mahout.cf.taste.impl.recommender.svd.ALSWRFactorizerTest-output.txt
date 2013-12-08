@@ -1,0 +1,84 @@
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 0
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 1
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 2
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 3
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 4
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: finished computation of the factorization...
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [0] towards item [0], was [1.0] with confidence [101.0] estimate is [0.9895520806312561]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [0] towards item [1], was [1.0] with confidence [101.0] estimate is [1.0011061429977417]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [0] towards item [2], was [1.0] with confidence [41.0] estimate is [1.0015952587127686]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [0] towards item [3], was [0.0] with confidence [1.0] estimate is [0.9866981506347656]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [1] towards item [0], was [1.0] with confidence [41.0] estimate is [1.031315803527832]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [1] towards item [1], was [0.0] with confidence [1.0] estimate is [-0.12306857854127884]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [1] towards item [2], was [1.0] with confidence [61.0] estimate is [0.9986933469772339]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [1] towards item [3], was [1.0] with confidence [101.0] estimate is [0.9888917803764343]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [2] towards item [0], was [0.0] with confidence [1.0] estimate is [0.8906246423721313]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [2] towards item [1], was [1.0] with confidence [101.0] estimate is [0.9979587197303772]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [2] towards item [2], was [0.0] with confidence [1.0] estimate is [-0.0716642215847969]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [2] towards item [3], was [1.0] with confidence [61.0] estimate is [0.9775801301002502]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [3] towards item [0], was [1.0] with confidence [61.0] estimate is [0.9649049043655396]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [3] towards item [1], was [0.0] with confidence [1.0] estimate is [-0.040451306849718094]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [3] towards item [2], was [0.0] with confidence [1.0] estimate is [0.07818776369094849]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Comparing preference of user [3] towards item [3], was [1.0] with confidence [101.0] estimate is [1.0035849809646606]
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: RMSE: 0.3505670945118265
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 0
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 1
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 2
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 3
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 4
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 5
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 6
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 7
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 8
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: iteration 9
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: finished computation of the factorization...
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users

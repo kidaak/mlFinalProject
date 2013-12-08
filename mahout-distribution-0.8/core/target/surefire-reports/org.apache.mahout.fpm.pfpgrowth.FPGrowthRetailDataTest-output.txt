@@ -1,0 +1,42 @@
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique items 185
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Adding Pattern 41=>4
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Adding Pattern 36=>10
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Adding Pattern 39=>0
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of unique pruned items 185
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 10000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 20000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 30000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 40000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 50000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 60000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 70000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: FPTree Building: Read 80000 Transactions
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Nodes in the FP Tree: 91037
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 10
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 12 Patterns with Least Support 2936
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 4
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 47 Patterns with Least Support 14945
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Mining FTree Tree for all patterns with 0
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Found 156 Patterns with Least Support 50675
+Dec 7, 2013 6:36:17 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Tree Cache: First Level: Cache hits=1 Cache Misses=540

@@ -1,0 +1,14 @@
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: NGram Total: 7, Min LLR value: 1.0, Emit Unigrams: false
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:1 k12:1 k21:0 k22:5
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:1 k12:0 k21:1 k22:5
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:2 k12:0 k21:0 k22:5
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:1 k12:0 k21:0 k22:6
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:1 k12:1 k21:0 k22:5
+Dec 7, 2013 6:44:09 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: k11:1 k12:0 k21:1 k22:5

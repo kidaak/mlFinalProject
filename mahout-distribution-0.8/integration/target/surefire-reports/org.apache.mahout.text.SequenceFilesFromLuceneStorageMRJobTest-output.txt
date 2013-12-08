@@ -1,0 +1,132 @@
+Dec 7, 2013 6:22:55 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:22:55 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:22:55 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:22:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Created 14261 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index1' segment _0
+Dec 7, 2013 6:22:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Created 14408 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index1' segment _1
+Dec 7, 2013 6:22:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Created 1300 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index1' segment _2
+Dec 7, 2013 6:22:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Created 14362 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index2' segment _0
+Dec 7, 2013 6:22:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Created 14408 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index2' segment _1
+Dec 7, 2013 6:22:55 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0001
+Dec 7, 2013 6:22:55 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000000_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000001_0 is allowed to commit now
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000001_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000001_0' done.
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000002_0 is done. And is in the process of commiting
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000002_0 is allowed to commit now
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000002_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000002_0' done.
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000003_0 is done. And is in the process of commiting
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000003_0 is allowed to commit now
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000003_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000003_0' done.
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000004_0 is done. And is in the process of commiting
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000004_0 is allowed to commit now
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000004_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000004_0' done.
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0001
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 11
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   org.apache.mahout.text.SequenceFilesFromLuceneStorageMapper$DataStatus
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     EMPTY_VALUE=1
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     EMPTY_KEY=1
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=79653
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=585918
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=536729
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=0
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=2002
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=425000960
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=2002
+Dec 7, 2013 6:22:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=710
+Dec 7, 2013 6:22:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/seqOutputPath
+Dec 7, 2013 6:22:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index1
+Dec 7, 2013 6:22:57 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-97811483333860352/index2

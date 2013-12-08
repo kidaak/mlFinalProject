@@ -1,0 +1,15 @@
+org.apache.mahout.math.neighborhood.BruteSearch
+0.30 for clustering
+29.6 us per row
+
+625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 625.000000 
+1 runs; kmeans++: 186.543230; random: 4464.980673
+2 runs; kmeans++: 186.565581; random: 3847.642562
+3 runs; kmeans++: 186.565999; random: 2632.220291
+4 runs; kmeans++: 186.561031; random: 3843.969661
+5 runs; kmeans++: 186.560284; random: 2628.328960
+6 runs; kmeans++: 186.549822; random: 2884.730046
+7 runs; kmeans++: 186.557620; random: 3233.803314
+8 runs; kmeans++: 186.565907; random: 2625.683230
+9 runs; kmeans++: 186.555488; random: 2616.519404
+10 runs; kmeans++: 186.558198; random: 2024.452678

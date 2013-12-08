@@ -1,0 +1,24 @@
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter error
+SEVERE: There are too many documents that do not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter error
+SEVERE: There are too many documents that do not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_5 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_6 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_7 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_8 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_9 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_5 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_6 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_7 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter warn
+WARNING: doc_8 does not have a term vector for content
+Dec 7, 2013 6:23:19 PM org.slf4j.impl.JCLLoggerAdapter error
+SEVERE: There are too many documents that do not have a term vector for content

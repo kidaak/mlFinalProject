@@ -1,0 +1,42 @@
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@75e845c2
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@75e845c2]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@643c0007
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@75e845c2, org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@643c0007]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@379e8f17
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@379e8f17, PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]]
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@ac44b88
+Dec 7, 2013 6:31:08 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@ac44b88, PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], org.apache.mahout.cf.taste.impl.recommender.PreferredItemsNeighborhoodCandidateItemsStrategy@379e8f17]

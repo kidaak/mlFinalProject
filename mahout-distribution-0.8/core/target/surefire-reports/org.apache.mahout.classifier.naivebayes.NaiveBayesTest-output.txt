@@ -1,0 +1,410 @@
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:32:02 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--alphaI=[1.0], --endPhase=[2147483647], --extractLabels=null, --input=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/trainingInstances.seq], --output=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/output], --startPhase=[0], --tempDir=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp]}
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating labelIndex in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/hadoop0.47801854154560985/mapred/local/archive/-8076019173121132986_1194941362_1332169685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp-work--3744208717846284633 with rwxr-xr-x
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/labelIndex as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/hadoop0.47801854154560985/mapred/local/archive/-8076019173121132986_1194941362_1332169685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/labelIndex
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0001
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.io.compress.CodecPool getCompressor
+INFO: Got brand-new compressor
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 45 bytes
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_r_000000_0' to /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/summedObservations
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:02 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_r_000000_0' done.
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0001
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=233
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=4297
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=106987
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=796
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=49
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=4
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=540
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=369238016
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=198
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=10
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=2
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=2
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=2
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=10
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating labelIndex in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/hadoop0.47801854154560985/mapred/local/archive/8161338669460994955_1194941362_1332169685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp-work-7318131506855718359 with rwxr-xr-x
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/labelIndex as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/hadoop0.47801854154560985/mapred/local/archive/8161338669460994955_1194941362_1332169685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/labelIndex
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0002
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000000_0' done.
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 57 bytes
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_r_000000_0' to /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-3230269963379028992/tmp/weights
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:03 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_r_000000_0' done.
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0002
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=205
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=5685
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=212821
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=233
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=61
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=4
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=87
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=212
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=2
+Dec 7, 2013 6:32:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--alphaI=[1.0], --endPhase=[2147483647], --extractLabels=null, --input=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/trainingInstances.seq], --output=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/output], --startPhase=[0], --tempDir=[/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp], --trainComplementary=null}
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating labelIndex in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/hadoop0.12948781845359214/mapred/local/archive/7912329606999572371_-446082190_1332171685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp-work-8764115045526287675 with rwxr-xr-x
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/labelIndex as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/hadoop0.12948781845359214/mapred/local/archive/7912329606999572371_-446082190_1332171685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/labelIndex
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0003
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000000_0' done.
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 45 bytes
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0003_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0003_r_000000_0' to /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/summedObservations
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:04 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_r_000000_0' done.
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0003
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=233
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=11337
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=320449
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=796
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=49
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=4
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=540
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=198
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=10
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=2
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=2
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=2
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=10
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating labelIndex in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/hadoop0.12948781845359214/mapred/local/archive/6758735951878338588_-446082190_1332171685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp-work--6608884421876757072 with rwxr-xr-x
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/labelIndex as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/hadoop0.12948781845359214/mapred/local/archive/6758735951878338588_-446082190_1332171685/file/Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/labelIndex
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0004
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_m_000000_0' done.
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 57 bytes
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_r_000000_0' to /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-NaiveBayesTest-9191893544560937984/tmp/weights
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:05 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_r_000000_0' done.
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0004
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=205
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=12725
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=426287
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=233
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=61
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=4
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=87
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=212
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:06 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=2

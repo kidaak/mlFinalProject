@@ -1,0 +1,54 @@
+Dec 7, 2013 6:22:58 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 3 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2124870309744418816/seqfiles/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 3 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2124870309744418816/seqfiles/index2
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2124870309744418816/seqfiles
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2124870309744418816/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2124870309744418816/index2
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 1 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-1989679684226280448/seqfiles/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-1989679684226280448/seqfiles
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-1989679684226280448/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-1989679684226280448/index2
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 3 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-4471866493369251840/seqfiles/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-4471866493369251840/seqfiles
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-4471866493369251840/index1
+Dec 7, 2013 6:22:58 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-4471866493369251840/index2
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 1002 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-3663033817821484032/seqfiles/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 2002 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-3663033817821484032/seqfiles/index2
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-3663033817821484032/seqfiles
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-3663033817821484032/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-3663033817821484032/index2
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 3 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2111681209406914560/seqfiles/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2111681209406914560/seqfiles
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2111681209406914560/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-2111681209406914560/index2
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Wrote 1 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-8769407420402651136/seqfiles/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-8769407420402651136/seqfiles
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-8769407420402651136/index1
+Dec 7, 2013 6:22:59 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageTest-8769407420402651136/index2

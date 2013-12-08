@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.mahout.math.TestSequentialAccessSparseVector
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.94 sec - in org.apache.mahout.math.TestSequentialAccessSparseVector

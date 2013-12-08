@@ -1,0 +1,28 @@
+Dec 7, 2013 6:36:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: RS Observed 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036070307429523, 3.9956871921951214]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: OL Observed 50000.0 samples m=[1.0093396398606134, 1.987182957473841] sd=[3.0036370672637984, 3.9957271496664295]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:05 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]
+Dec 7, 2013 6:36:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Generating 50000 samples m=[1.0, 2.0] sd=[3.0, 4.0]
+Dec 7, 2013 6:36:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Observing 50000 samples m=[1.0093396398605992, 1.9871829574738287] sd=[3.0036370672638086, 3.9957271496664064]

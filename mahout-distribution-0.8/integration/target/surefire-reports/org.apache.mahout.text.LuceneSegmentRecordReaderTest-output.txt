@@ -1,0 +1,2 @@
+Dec 7, 2013 6:22:49 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-LuceneSegmentRecordReaderTest-6590578228522548224/index1

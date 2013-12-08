@@ -1,0 +1,180 @@
+Dec 7, 2013 6:44:48 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:44:49 PM org.slf4j.impl.JCLLoggerAdapter error
+SEVERE: Exception
+org.apache.commons.cli2.OptionException: Unexpected --mapred while processing Options
+	at org.apache.commons.cli2.commandline.Parser.parse(Parser.java:99)
+	at org.apache.mahout.vectorizer.SparseVectorsFromSequenceFiles.run(SparseVectorsFromSequenceFiles.java:154)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.mahout.vectorizer.HighDFWordsPrunerTest.runTest(HighDFWordsPrunerTest.java:112)
+	at org.apache.mahout.vectorizer.HighDFWordsPrunerTest.testHighDFWordsPruning(HighDFWordsPrunerTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Usage:                                                                          
+ [--minSupport <minSupport> --analyzerName <analyzerName> --chunkSize           
+<chunkSize> --output <output> --input <input> --minDF <minDF> --maxDFSigma      
+<maxDFSigma> --maxDFPercent <maxDFPercent> --weight <weight> --norm <norm>      
+--minLLR <minLLR> --numReducers <numReducers> --maxNGramSize <ngramSize>        
+--overwrite --help --sequentialAccessVector --namedVector --logNormalize]       
+Options                                                                         
+  --minSupport (-s) minSupport        (Optional) Minimum Support. Default       
+                                      Value: 2                                  
+  --analyzerName (-a) analyzerName    The class name of the analyzer            
+  --chunkSize (-chunk) chunkSize      The chunkSize in MegaBytes. 100-10000 MB  
+  --output (-o) output                The directory pathname for output.        
+  --input (-i) input                  Path to job input directory.              
+  --minDF (-md) minDF                 The minimum document frequency.  Default  
+                                      is 1                                      
+  --maxDFSigma (-xs) maxDFSigma       What portion of the tf (tf-idf) vectors   
+                                      to be used, expressed in times the        
+                                      standard deviation (sigma) of the         
+                                      document frequencies of these vectors.    
+                                      Can be used to remove really high         
+                                      frequency terms. Expressed as a double    
+                                      value. Good value to be specified is 3.0. 
+                                      In case the value is less than 0 no       
+                                      vectors will be filtered out. Default is  
+                                      -1.0.  Overrides maxDFPercent             
+  --maxDFPercent (-x) maxDFPercent    The max percentage of docs for the DF.    
+                                      Can be used to remove really high         
+                                      frequency terms. Expressed as an integer  
+                                      between 0 and 100. Default is 99.  If     
+                                      maxDFSigma is also set, it will override  
+                                      this value.                               
+  --weight (-wt) weight               The kind of weight to use. Currently TF   
+                                      or TFIDF                                  
+  --norm (-n) norm                    The norm to use, expressed as either a    
+                                      float or "INF" if you want to use the     
+                                      Infinite norm.  Must be greater or equal  
+                                      to 0.  The default is not to normalize    
+  --minLLR (-ml) minLLR               (Optional)The minimum Log Likelihood      
+                                      Ratio(Float)  Default is 1.0              
+  --numReducers (-nr) numReducers     (Optional) Number of reduce tasks.        
+                                      Default Value: 1                          
+  --maxNGramSize (-ng) ngramSize      (Optional) The maximum size of ngrams to  
+                                      create (2 = bigrams, 3 = trigrams, etc)   
+                                      Default Value:1                           
+  --overwrite (-ow)                   If set, overwrite the output directory    
+  --help (-h)                         Print out help                            
+  --sequentialAccessVector (-seq)     (Optional) Whether output vectors should  
+                                      be SequentialAccessVectors. If set true   
+                                      else false                                
+  --namedVector (-nv)                 (Optional) Whether output vectors should  
+                                      be NamedVectors. If set true else false   
+  --logNormalize (-lnorm)             (Optional) Whether output vectors should  
+                                      be logNormalize. If set true else false   
+Dec 7, 2013 6:44:49 PM org.slf4j.impl.JCLLoggerAdapter error
+SEVERE: Exception
+org.apache.commons.cli2.OptionException: Unexpected --mapred while processing Options
+	at org.apache.commons.cli2.commandline.Parser.parse(Parser.java:99)
+	at org.apache.mahout.vectorizer.SparseVectorsFromSequenceFiles.run(SparseVectorsFromSequenceFiles.java:154)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.mahout.vectorizer.HighDFWordsPrunerTest.runTest(HighDFWordsPrunerTest.java:112)
+	at org.apache.mahout.vectorizer.HighDFWordsPrunerTest.testHighDFWordsPreserving(HighDFWordsPrunerTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+Usage:                                                                          
+ [--minSupport <minSupport> --analyzerName <analyzerName> --chunkSize           
+<chunkSize> --output <output> --input <input> --minDF <minDF> --maxDFSigma      
+<maxDFSigma> --maxDFPercent <maxDFPercent> --weight <weight> --norm <norm>      
+--minLLR <minLLR> --numReducers <numReducers> --maxNGramSize <ngramSize>        
+--overwrite --help --sequentialAccessVector --namedVector --logNormalize]       
+Options                                                                         
+  --minSupport (-s) minSupport        (Optional) Minimum Support. Default       
+                                      Value: 2                                  
+  --analyzerName (-a) analyzerName    The class name of the analyzer            
+  --chunkSize (-chunk) chunkSize      The chunkSize in MegaBytes. 100-10000 MB  
+  --output (-o) output                The directory pathname for output.        
+  --input (-i) input                  Path to job input directory.              
+  --minDF (-md) minDF                 The minimum document frequency.  Default  
+                                      is 1                                      
+  --maxDFSigma (-xs) maxDFSigma       What portion of the tf (tf-idf) vectors   
+                                      to be used, expressed in times the        
+                                      standard deviation (sigma) of the         
+                                      document frequencies of these vectors.    
+                                      Can be used to remove really high         
+                                      frequency terms. Expressed as a double    
+                                      value. Good value to be specified is 3.0. 
+                                      In case the value is less than 0 no       
+                                      vectors will be filtered out. Default is  
+                                      -1.0.  Overrides maxDFPercent             
+  --maxDFPercent (-x) maxDFPercent    The max percentage of docs for the DF.    
+                                      Can be used to remove really high         
+                                      frequency terms. Expressed as an integer  
+                                      between 0 and 100. Default is 99.  If     
+                                      maxDFSigma is also set, it will override  
+                                      this value.                               
+  --weight (-wt) weight               The kind of weight to use. Currently TF   
+                                      or TFIDF                                  
+  --norm (-n) norm                    The norm to use, expressed as either a    
+                                      float or "INF" if you want to use the     
+                                      Infinite norm.  Must be greater or equal  
+                                      to 0.  The default is not to normalize    
+  --minLLR (-ml) minLLR               (Optional)The minimum Log Likelihood      
+                                      Ratio(Float)  Default is 1.0              
+  --numReducers (-nr) numReducers     (Optional) Number of reduce tasks.        
+                                      Default Value: 1                          
+  --maxNGramSize (-ng) ngramSize      (Optional) The maximum size of ngrams to  
+                                      create (2 = bigrams, 3 = trigrams, etc)   
+                                      Default Value:1                           
+  --overwrite (-ow)                   If set, overwrite the output directory    
+  --help (-h)                         Print out help                            
+  --sequentialAccessVector (-seq)     (Optional) Whether output vectors should  
+                                      be SequentialAccessVectors. If set true   
+                                      else false                                
+  --namedVector (-nv)                 (Optional) Whether output vectors should  
+                                      be NamedVectors. If set true else false   
+  --logNormalize (-lnorm)             (Optional) Whether output vectors should  
+                                      be logNormalize. If set true else false   

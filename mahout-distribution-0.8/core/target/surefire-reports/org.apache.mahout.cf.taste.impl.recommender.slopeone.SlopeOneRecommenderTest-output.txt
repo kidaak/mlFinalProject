@@ -1,0 +1,44 @@
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: MemoryDiffStorage
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [MemoryDiffStorage, GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [MemoryDiffStorage, GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: MemoryDiffStorage
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], MemoryDiffStorage]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...], MemoryDiffStorage]
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:10 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...

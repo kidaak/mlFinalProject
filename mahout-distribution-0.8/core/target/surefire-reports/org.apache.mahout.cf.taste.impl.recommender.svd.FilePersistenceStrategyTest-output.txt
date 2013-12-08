@@ -1,0 +1,6 @@
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FilePersistenceStrategyTest-5285074869256748032/storage.bin does not yet exist, no factorization found
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Writing factorization to /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FilePersistenceStrategyTest-5285074869256748032/storage.bin...
+Dec 7, 2013 6:31:11 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Reading factorization from /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-FilePersistenceStrategyTest-5285074869256748032/storage.bin...

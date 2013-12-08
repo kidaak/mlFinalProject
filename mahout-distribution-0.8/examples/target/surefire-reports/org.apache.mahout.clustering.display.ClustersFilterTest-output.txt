@@ -1,0 +1,2 @@
+Dec 7, 2013 6:23:26 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

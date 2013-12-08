@@ -1,0 +1,8 @@
+org.apache.mahout.math.neighborhood.ProjectionSearch: first matches 1024 [1024]; avg_time(1 query) 0.100586(s) [1.177734]
+org.apache.mahout.math.neighborhood.ProjectionSearch: first matches 1024 [1024]; total matches 1080 [2048]; avg_time(1 query) 0.178711(s) [1.177734]
+org.apache.mahout.math.neighborhood.FastProjectionSearch: first matches 1024 [1024]; avg_time(1 query) 0.074219(s) [1.177734]
+org.apache.mahout.math.neighborhood.FastProjectionSearch: first matches 1024 [1024]; total matches 1086 [2048]; avg_time(1 query) 0.087891(s) [1.177734]
+org.apache.mahout.math.neighborhood.ProjectionSearch: first matches 1024 [1024]; avg_time(1 query) 0.031250(s) [1.177734]
+org.apache.mahout.math.neighborhood.ProjectionSearch: first matches 1024 [1024]; total matches 1073 [2048]; avg_time(1 query) 0.049805(s) [1.177734]
+org.apache.mahout.math.neighborhood.FastProjectionSearch: first matches 1024 [1024]; avg_time(1 query) 0.049805(s) [1.177734]
+org.apache.mahout.math.neighborhood.FastProjectionSearch: first matches 1024 [1024]; total matches 1078 [2048]; avg_time(1 query) 0.071289(s) [1.177734]

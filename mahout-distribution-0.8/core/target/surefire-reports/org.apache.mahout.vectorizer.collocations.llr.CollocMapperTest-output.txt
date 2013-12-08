@@ -1,0 +1,8 @@
+Dec 7, 2013 6:44:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Max Ngram size is 2
+Dec 7, 2013 6:44:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Emit Unitgrams is true
+Dec 7, 2013 6:44:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Max Ngram size is 2
+Dec 7, 2013 6:44:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Emit Unitgrams is false

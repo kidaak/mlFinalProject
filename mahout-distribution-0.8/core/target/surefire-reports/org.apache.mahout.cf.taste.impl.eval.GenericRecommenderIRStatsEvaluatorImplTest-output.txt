@@ -1,0 +1,46 @@
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 2 in 10ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.0 / 0.0 / 0.3333333333333333 / 0.0 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 3 in 0ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.16666666666666666 / 0.5 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 4 in 0ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.6666666666666666 / 0.6666666666666666 / 0.1111111111111111 / 0.6666666666666666 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 1 in 4ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.0 / 0.0 / 0.5 / 0.0 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 2 in 0ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.5 / 0.5 / 0.25 / 0.5 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 3 in 0ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.6666666666666666 / 0.6666666666666666 / 0.16666666666666666 / 0.6666666666666666 / 1.0
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Building average diffs...
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Evaluated with user 4 in 0ms
+Dec 7, 2013 6:30:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Precision/recall/fall-out/nDCG/reach: 0.75 / 0.75 / 0.125 / 0.75 / 1.0

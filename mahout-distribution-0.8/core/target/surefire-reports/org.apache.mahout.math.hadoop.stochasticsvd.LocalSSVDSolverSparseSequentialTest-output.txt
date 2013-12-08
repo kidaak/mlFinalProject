@@ -1,0 +1,225 @@
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.io.compress.CodecPool getCompressor
+INFO: Got brand-new compressor
+Input prepared, starting solver...
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:41:08 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.io.compress.CodecPool getCompressor
+INFO: Got brand-new compressor
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:09 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating R-m-00000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1484454512417277339_1620214081_1332716685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job-work--9012441442548686646 with rwxr-xr-x
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job/R-m-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1484454512417277339_1620214081_1332716685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job/R-m-00000
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job/R-m-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1484454512417277339_1620214081_1332716685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Q-job/R-m-00000
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.io.compress.CodecPool getDecompressor
+INFO: Got brand-new decompressor
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_m_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000000_0' done.
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 80316 bytes
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_r_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:41:14 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_r_000000_0' done.
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating part-r-00000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/8476706260300018162_1146940034_1332721685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job-work--6181050412789167598 with rwxr-xr-x
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job/part-r-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/8476706260300018162_1146940034_1332721685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job/part-r-00000
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job/part-r-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/8476706260300018162_1146940034_1332721685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job/part-r-00000
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000000_0' done.
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 1600122 bytes
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:19 PM org.apache.hadoop.io.compress.CodecPool getCompressor
+INFO: Got brand-new compressor
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0003_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0003_r_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:41:20 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_r_000000_0' done.
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating R-m-00000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1410611873505777802_1433746119_1332727685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1-work--1350257946540204427 with rwxr-xr-x
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1/R-m-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1410611873505777802_1433746119_1332727685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1/R-m-00000
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:///tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1/R-m-00000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-LocalSSVDSolverSparseSequentialTest-8999454363732634624/svdtmp/mapred/local/archive/1410611873505777802_1433746119_1332727685/file/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/ABt-job-1/R-m-00000
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_m_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job-1
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_m_000000_0' done.
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 80316 bytes
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_r_000000_0' to file:/tmp/mahout-LocalSSVDSolverSparseSequentialTest-722092726180201472/svd-proc/SSVD-out/Bt-job-1
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:41:24 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_r_000000_0' done.
+--SSVD solver singular values:
+svs: 179.820460  175.838927  175.045603  173.470357  172.228309  171.714313  170.444912  169.476445  168.360606  167.869426  166.406927  165.847905  164.854841  163.995041  163.557899  162.399058  162.163499  160.608666  160.117587  159.542849  158.249348  157.167254  156.559882  155.831811  155.053374  154.589961  154.355483  153.575990  153.295528  152.891726  151.774175  151.715864  150.563843  150.242401  149.569603  149.126965  148.671028  147.930767  147.802065  147.592884  146.761884  146.258416  145.678037  144.891695  144.232478  144.098055  143.813543  143.237808  142.688379  142.035306  141.115210  140.597802  140.109194  139.783765  139.062247  138.738501  138.415065  137.839165  137.303598  136.937123  135.828603  135.537727  134.893946  133.659072  133.610958  132.933493  132.416761  131.855734  131.292471  130.864862  130.172323  129.487367  128.890830  128.157523  127.587370  127.038210  126.585438  125.789663  125.360062  124.411576  123.864490  123.108819  122.156636  121.961898  121.441944  120.520123  120.103433  119.436124  118.971884  118.278788  117.381951  116.474409  115.838845  115.059916  113.615008  113.298073  112.134022  110.270167  109.529277  107.211918  
+--Colt SVD solver singular values:
+svs: 179.820460  175.838927  175.045603  173.470357  172.228309  171.714313  170.444912  169.476445  168.360606  167.869426  166.406927  165.847905  164.854841  163.995041  163.557899  162.399058  162.163499  160.608666  160.117587  159.542849  158.249348  157.167254  156.559882  155.831811  155.053374  154.589961  154.355483  153.575990  153.295528  152.891726  151.774175  151.715864  150.563843  150.242401  149.569603  149.126965  148.671028  147.930767  147.802065  147.592884  146.761884  146.258416  145.678037  144.891695  144.232478  144.098055  143.813543  143.237808  142.688379  142.035306  141.115210  140.597802  140.109194  139.783765  139.062247  138.738501  138.415065  137.839165  137.303598  136.937123  135.828603  135.537727  134.893946  133.659072  133.610958  132.933493  132.416761  131.855734  131.292471  130.864862  130.172323  129.487367  128.890830  128.157523  127.587370  127.038210  126.585438  125.789663  125.360062  124.411576  123.864490  123.108819  122.156636  121.961898  121.441944  120.520123  120.103433  119.436124  118.971884  118.278788  117.381951  116.474409  115.838845  115.059916  113.615008  113.298073  112.134022  110.270167  109.529277  107.211918  

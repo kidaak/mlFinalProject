@@ -1,0 +1,21 @@
+HOW TO RUN MAHOUT
+
+The test class / files I’ve been using are all in the firstrecommender folder. To compile, set Terminal so you’re in firstrecommender, then use 
+
+mvn compile 
+
+to compile, and 
+
+mvn exec:java -Dexec.mainClass="com.first.GenericUserBasedRecommender1"
+
+to run.
+
+Here are some sites that have been really helpful for getting this working / understanding what’s going on under the hood :
+
+
+This one is a tutorial for the test that I did :
+http://www.drdobbs.com/open-source/machine-learning-with-apache-mahout-the/240163272?pgno=2
+
+
+This gets more into how the software works / how to do some of the things we’ll want to do next :
+http://www.slideshare.net/Cataldo/tutoria-mahout-recommendation

@@ -1,0 +1,14 @@
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c]
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c
+Dec 7, 2013 6:31:06 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.recommender.MockRecommender@2c19e15c]

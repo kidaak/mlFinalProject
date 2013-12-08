@@ -1,0 +1,14 @@
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Input integers: 1501277
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Input data Size: 6.005108
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Nodes in Tree: 147226
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Size of Tree: 2.94452
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of transaction integers: 569015
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Size of Transactions: 3.156644
+Dec 7, 2013 6:38:37 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Number of Transactions: 110073

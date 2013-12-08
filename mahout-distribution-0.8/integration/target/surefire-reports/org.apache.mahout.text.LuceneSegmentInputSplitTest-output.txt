@@ -1,0 +1,4 @@
+Dec 7, 2013 6:22:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-LuceneSegmentInputSplitTest-5206274446541145088/index1
+Dec 7, 2013 6:22:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-LuceneSegmentInputSplitTest-4555703385509909504/index1

@@ -1,0 +1,14 @@
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2 users
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2 users
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2 users
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2 users

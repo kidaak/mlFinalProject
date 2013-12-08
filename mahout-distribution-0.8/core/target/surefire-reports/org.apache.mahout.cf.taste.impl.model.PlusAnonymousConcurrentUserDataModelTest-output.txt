@@ -1,0 +1,30 @@
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 1 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users
+Dec 7, 2013 6:31:04 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 0 users

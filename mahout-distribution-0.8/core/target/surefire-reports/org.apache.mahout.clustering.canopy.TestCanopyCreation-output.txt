@@ -1,0 +1,806 @@
+C-0{n=4 c=[1.500, 1.500] r=[0.500, 0.500]}
+C-1{n=4 c=[4.000, 4.000] r=[0.707, 0.707]}
+C-2{n=3 c=[4.667, 4.667] r=[0.471, 0.471]}
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:32:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--clustering=null, --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestCanopyCreation-8263212362003717120/testdata], --method=[mapreduce], --outlierThreshold=[0.7], --output=[file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output], --overwrite=null, --startPhase=[0], --t1=[3.1], --t2=[2.1], --tempDir=[temp]}
+Dec 7, 2013 6:32:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output
+Dec 7, 2013 6:32:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-8263212362003717120/testdata Out: file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@18987a33 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0001
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:24 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000001_0' done.
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 2 sorted segments
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 2 segments left of total size: 196 bytes
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_r_000000_0' to file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output/clusters-0-final
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_r_000000_0' done.
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0001
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=484
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=3838
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=159689
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=204
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=12
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=180
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=557133824
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=0
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=6
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=0
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=6
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0002
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_m_000000_0' to file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output/clusteredPoints
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000000_0' done.
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_m_000001_0 is allowed to commit now
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_m_000001_0' to file:/tmp/mahout-TestCanopyCreation-8263212362003717120/output/clusteredPoints
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:25 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000001_0' done.
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0002
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=920
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=7579
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=212484
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=16
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-9046829836835768320/testdata Out: file:/tmp/mahout-TestCanopyCreation-9046829836835768320/output Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@56a6cbf7 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0003
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000000_0' done.
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000001_0' done.
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 2 sorted segments
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 2 segments left of total size: 196 bytes
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0003_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0003_r_000000_0' to file:/tmp/mahout-TestCanopyCreation-9046829836835768320/output/clusters-0-final
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:26 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_r_000000_0' done.
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0003
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=484
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=18676
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=478457
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=204
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=12
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=180
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=558772224
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=0
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=6
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=0
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=6
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0004
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_m_000000_0' to file:/tmp/mahout-TestCanopyCreation-9046829836835768320/output/clusteredPoints
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_m_000000_0' done.
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_m_000001_0 is allowed to commit now
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_m_000001_0' to file:/tmp/mahout-TestCanopyCreation-9046829836835768320/output/clusteredPoints
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:27 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_m_000001_0' done.
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0004
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=1002
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=17471
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=424671
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=18
+Dec 7, 2013 6:32:28 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:28 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-2955459827282345984/testdata Out: file:/tmp/mahout-TestCanopyCreation-2955459827282345984/output Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@11afd9cc t1: 3.1 t2: 2.1
+C-0{n=5 c=[1.800, 1.800] r=[0.748, 0.748]}
+C-1{n=5 c=[4.200, 4.200] r=[0.748, 0.748]}
+C-2{n=3 c=[4.667, 4.667] r=[0.471, 0.471]}
+Dec 7, 2013 6:32:29 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-7485576356854478848/testdata Out: file:/tmp/mahout-TestCanopyCreation-7485576356854478848/output Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@650df4e2 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0005
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0005_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0005_m_000000_0' done.
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0005_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0005_m_000001_0' done.
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 2 sorted segments
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 2 segments left of total size: 196 bytes
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0005_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0005_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0005_r_000000_0' to file:/tmp/mahout-TestCanopyCreation-7485576356854478848/output/clusters-0-final
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:29 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0005_r_000000_0' done.
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0005
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=484
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=42813
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=802607
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=886
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=204
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=12
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=180
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=558772224
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=0
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=6
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=0
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=6
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--clustering=null, --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestCanopyCreation-6076918221134633984/testdata], --method=[sequential], --output=[file:/tmp/mahout-TestCanopyCreation-6076918221134633984/output], --overwrite=null, --startPhase=[0], --t1=[3.1], --t2=[2.1], --tempDir=[temp]}
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestCanopyCreation-6076918221134633984/output
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-6076918221134633984/testdata Out: file:/tmp/mahout-TestCanopyCreation-6076918221134633984/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@66952905 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--clustering=null, --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestCanopyCreation-4401390040768623616/testdata], --method=[mapreduce], --output=[file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output], --overwrite=null, --startPhase=[0], --t1=[3.1], --t2=[2.1], --tempDir=[temp]}
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output
+Dec 7, 2013 6:32:30 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-4401390040768623616/testdata Out: file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@5d85fe0c t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0006
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0006_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0006_m_000000_0' done.
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0006_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0006_m_000001_0' done.
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 2 sorted segments
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 2 segments left of total size: 196 bytes
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0006_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0006_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0006_r_000000_0' to file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output/clusters-0-final
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:30 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0006_r_000000_0' done.
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0006
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=484
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=58234
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=969008
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=204
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=12
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=180
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=558772224
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=0
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=6
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=0
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=6
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0007
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0007_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0007_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0007_m_000000_0' to file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output/clusteredPoints
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0007_m_000000_0' done.
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0007_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0007_m_000001_0 is allowed to commit now
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0007_m_000001_0' to file:/tmp/mahout-TestCanopyCreation-4401390040768623616/output/clusteredPoints
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:31 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0007_m_000001_0' done.
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0007
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=1002
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=43843
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=752157
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=812
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=18
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:32 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--clustering=null, --distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestCanopyCreation-3843754305098805248/testdata], --method=[sequential], --outlierThreshold=[0.5], --output=[file:/tmp/mahout-TestCanopyCreation-3843754305098805248/output], --overwrite=null, --startPhase=[0], --t1=[3.1], --t2=[2.1], --tempDir=[temp]}
+Dec 7, 2013 6:32:32 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestCanopyCreation-3843754305098805248/output
+Dec 7, 2013 6:32:32 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-3843754305098805248/testdata Out: file:/tmp/mahout-TestCanopyCreation-3843754305098805248/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@815a3a1 t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:32 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-TestCanopyCreation-5407748102737353728/testdata Out: file:/tmp/mahout-TestCanopyCreation-5407748102737353728/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@76c3358b t1: 3.1 t2: 2.1
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 2
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0008
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0008_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0008_m_000000_0' done.
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0008_m_000001_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0008_m_000001_0' done.
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 2 sorted segments
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 2 segments left of total size: 196 bytes
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0008_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0008_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0008_r_000000_0' to file:/tmp/mahout-TestCanopyCreation-5407748102737353728/output/clusters-0-final
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:32:32 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0008_r_000000_0' done.
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0008
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 17
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=484
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=82002
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=1293461
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=886
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=204
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=18
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=12
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=180
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=595587072
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=270
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=0
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=6
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=0
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=2
+Dec 7, 2013 6:32:33 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=6

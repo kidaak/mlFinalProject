@@ -1,0 +1,16 @@
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorCache-2429141779145839616/output
+Dec 7, 2013 6:35:20 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Files are: [/tmp/mahout-TestVectorCache-2429141779145839616/output]
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Loading vector from: /tmp/mahout-TestVectorCache-2429141779145839616/output
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorCache-882526392293465088/output
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Files are: [/tmp/mahout-TestVectorCache-882526392293465088/output]
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Loading vector from: /tmp/mahout-TestVectorCache-882526392293465088/output
+Dec 7, 2013 6:35:20 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorCache-8225193039454203904/output

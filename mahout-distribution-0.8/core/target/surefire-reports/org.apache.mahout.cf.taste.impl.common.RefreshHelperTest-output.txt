@@ -1,0 +1,12 @@
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.common.MockRefreshable@165973ea
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.common.MockRefreshable@2393385d, org.apache.mahout.cf.taste.impl.common.MockRefreshable@165973ea]
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.common.MockRefreshable@28bb0d0d
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.common.MockRefreshable@28bb0d0d]
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: org.apache.mahout.cf.taste.impl.common.MockRefreshable@1055e55f
+Dec 7, 2013 6:30:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [org.apache.mahout.cf.taste.impl.common.MockRefreshable@28bb0d0d, org.apache.mahout.cf.taste.impl.common.MockRefreshable@1055e55f]

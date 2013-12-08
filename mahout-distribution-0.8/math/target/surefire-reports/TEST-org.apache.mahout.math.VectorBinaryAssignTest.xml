@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.mahout.math.VectorBinaryAssignTest" time="0.031" tests="80" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/James/Documents/TEMP/mahout-distribution-0.8"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/7k/4pmgq3hd7dqf9bvgfcplnqxc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.1.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/James"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="James"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.1.1/libexec/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.1.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testAll[0]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.005"/>
+  <testcase name="testAll[1]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[2]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[3]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[4]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[5]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[6]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.003"/>
+  <testcase name="testAll[7]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[8]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[9]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[10]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[11]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[12]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[13]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[14]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[15]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[16]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[17]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[18]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.002"/>
+  <testcase name="testAll[19]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[20]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[21]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[22]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[23]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[24]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[25]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[26]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[27]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[28]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[29]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[30]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[31]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[32]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[33]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[34]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[35]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[36]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[37]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[38]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[39]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[40]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[41]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[42]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[43]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[44]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[45]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[46]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[47]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[48]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[49]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[50]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[51]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[52]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[53]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[54]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[55]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[56]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[57]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[58]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[59]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[60]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[61]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[62]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[63]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[64]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[65]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[66]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[67]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[68]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[69]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0.001"/>
+  <testcase name="testAll[70]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[71]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[72]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[73]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[74]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[75]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[76]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[77]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[78]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+  <testcase name="testAll[79]" classname="org.apache.mahout.math.VectorBinaryAssignTest" time="0"/>
+</testsuite>

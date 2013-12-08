@@ -1,0 +1,14 @@
+Dec 7, 2013 6:36:07 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Build Clusters Input: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/points Out: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/canopy Measure: org.apache.mahout.common.distance.ManhattanDistanceMeasure@16a9255c t1: 4.0 t2: 3.0
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Input: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/points Clusters In: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/canopy/clusters-0-final Out: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/kmeans Distance: org.apache.mahout.common.distance.ManhattanDistanceMeasure
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: convergence: 1.0 max Iterations: 1
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Clustering data
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Running Clustering
+Dec 7, 2013 6:36:07 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Input: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/points Clusters In: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/kmeans Out: file:/tmp/mahout-ClusterCountReaderTest-3885840609522120704/kmeans Distance: org.apache.mahout.common.distance.ManhattanDistanceMeasure@16a9255c

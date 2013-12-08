@@ -1,0 +1,2 @@
+Dec 7, 2013 6:31:46 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users

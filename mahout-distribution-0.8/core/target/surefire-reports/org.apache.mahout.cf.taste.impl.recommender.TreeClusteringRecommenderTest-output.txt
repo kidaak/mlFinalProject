@@ -1,0 +1,34 @@
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 5 users
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3...]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]], GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null], FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3...],inferrer:null]], GenericDataModel[users:1,2,3...]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 3 users
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: GenericDataModel[users:1,2,3]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Added refreshable: PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3], FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]], PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]]
+Dec 7, 2013 6:31:40 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Refreshed: [GenericDataModel[users:1,2,3], FarthestNeighborClusterSimilarity[similarity:PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]], PearsonCorrelationSimilarity[dataModel:GenericDataModel[users:1,2,3],inferrer:null]]

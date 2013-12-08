@@ -1,0 +1,176 @@
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:39:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-6623087802063820800/input], --outType=[v], --output=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-6623087802063820800/output], --seeds=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-6623087802063820800/seeds], --startPhase=[0], --tempDir=[temp]}
+Dec 7, 2013 6:39:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorDistanceSimilarityJob-6623087802063820800/output
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0001
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:24 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Seed Vectors size: 2
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_m_000000_0' to file:/tmp/mahout-TestVectorDistanceSimilarityJob-6623087802063820800/output
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:24 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0001
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=354
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=406
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=782
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=51647
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=9
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=85000192
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=145
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=9
+Dec 7, 2013 6:39:25 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-5565717772152169472/input], --outType=[pw], --output=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-5565717772152169472/output], --seeds=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-5565717772152169472/seeds], --startPhase=[0], --tempDir=[temp]}
+Dec 7, 2013 6:39:25 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorDistanceSimilarityJob-5565717772152169472/output
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0002
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:25 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Seed Vectors size: 2
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_m_000000_0' to file:/tmp/mahout-TestVectorDistanceSimilarityJob-5565717772152169472/output
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:25 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000000_0' done.
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0002
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=1905
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=406
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=1918
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=104869
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=9
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=85000192
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=145
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=18
+Dec 7, 2013 6:39:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--distanceMeasure=[org.apache.mahout.common.distance.EuclideanDistanceMeasure], --endPhase=[2147483647], --input=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-3386969594177295360/input], --maxDistance=[10.0], --outType=[pw], --output=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-3386969594177295360/output], --seeds=[file:/tmp/mahout-TestVectorDistanceSimilarityJob-3386969594177295360/seeds], --startPhase=[0], --tempDir=[temp]}
+Dec 7, 2013 6:39:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Deleting file:/tmp/mahout-TestVectorDistanceSimilarityJob-3386969594177295360/output
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapreduce.lib.input.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0003
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Seed Vectors size: 2
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0003_m_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0003_m_000000_0' to file:/tmp/mahout-TestVectorDistanceSimilarityJob-3386969594177295360/output
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:26 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000000_0' done.
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 0%
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0003
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 9
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=1505
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=406
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=4605
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=157877
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=9
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=0
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=85000192
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=145
+Dec 7, 2013 6:39:27 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=14

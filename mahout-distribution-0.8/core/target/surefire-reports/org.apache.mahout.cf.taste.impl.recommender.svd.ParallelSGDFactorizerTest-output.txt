@@ -1,0 +1,26 @@
+Dec 7, 2013 6:31:12 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2000 users
+Dec 7, 2013 6:31:13 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:13 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:13 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: RMSE: 0.012628657355840477;	Loss: 0.6537176942801143;	Time Used: 154
+Dec 7, 2013 6:31:14 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2000 users
+Dec 7, 2013 6:31:14 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: rmse: 3.5993085602831404E-8
+Dec 7, 2013 6:31:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 4 users
+Dec 7, 2013 6:31:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: rmse: 0.012628666646687171
+Dec 7, 2013 6:31:26 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Processed 2000 users
+Dec 7, 2013 6:31:27 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: starting to compute the factorization...
+Dec 7, 2013 6:31:39 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: RMSE: 5.442086734028142E-8;	Loss: 9.254066151561134E-6;	Time Used: 12243ms

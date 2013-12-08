@@ -1,0 +1,1276 @@
+Dec 7, 2013 6:39:42 PM org.apache.hadoop.util.NativeCodeLoader <clinit>
+WARNING: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Dec 7, 2013 6:39:42 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Command line arguments: {--endPhase=[2147483647], --input=[file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix], --lambda=[0.0], --numCols=[10], --numRows=[10], --output=[file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/output], --startPhase=[0], --symmetric=[true], --tempDir=[file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp], --vector=[file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/vector]}
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459582904510000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-4686597445100225410_-2128130213_1332629685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.inputVector-work--216722720157443971 with rwxr-xr-x
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.inputVector/1386459582904510000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-4686597445100225410_-2128130213_1332629685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.inputVector/1386459582904510000
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.inputVector/1386459582904510000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-4686597445100225410_-2128130213_1332629685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.inputVector/1386459582904510000
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0001
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_m_000000_0' done.
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0001_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0001_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459582900900000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:43 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0001_r_000000_0' done.
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0001
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=4066
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=110556
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=369238016
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:44 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient initial residual norm = 43.96068295903127
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459584191188000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5066997901259216843_1833891703_1332631685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.inputVector-work-867706439963431569 with rwxr-xr-x
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.inputVector/1386459584191188000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5066997901259216843_1833891703_1332631685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.inputVector/1386459584191188000
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.inputVector/1386459584191188000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5066997901259216843_1833891703_1332631685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.inputVector/1386459584191188000
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0002
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_m_000000_0' done.
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0002_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0002_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0002_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459584190667000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:44 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0002_r_000000_0' done.
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0002
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=8216
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=218590
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:45 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 1 residual norm = 50.50263542215847
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459585318955000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/211995113689297990_-864860141_1332632685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.inputVector-work-4819564762585762270 with rwxr-xr-x
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.inputVector/1386459585318955000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/211995113689297990_-864860141_1332632685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.inputVector/1386459585318955000
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.inputVector/1386459585318955000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/211995113689297990_-864860141_1332632685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.inputVector/1386459585318955000
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0003
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_m_000000_0' done.
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0003_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0003_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0003_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459585318488000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:45 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0003_r_000000_0' done.
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0003
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=12366
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=326616
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:46 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 2 residual norm = 67.57107538326525
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459586428358000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3891988607254892957_507771981_1332633685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.inputVector-work--5400652269654437270 with rwxr-xr-x
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.inputVector/1386459586428358000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3891988607254892957_507771981_1332633685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.inputVector/1386459586428358000
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.inputVector/1386459586428358000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3891988607254892957_507771981_1332633685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.inputVector/1386459586428358000
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0004
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_m_000000_0' done.
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0004_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0004_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0004_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459586427934000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:46 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0004_r_000000_0' done.
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0004
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=16516
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=434646
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:47 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 3 residual norm = 64.51984391169182
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459587533923000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2957861032499866213_-575397500_1332634685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.inputVector-work--8549135926018105640 with rwxr-xr-x
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.inputVector/1386459587533923000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2957861032499866213_-575397500_1332634685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.inputVector/1386459587533923000
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.inputVector/1386459587533923000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2957861032499866213_-575397500_1332634685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.inputVector/1386459587533923000
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0005
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0005_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0005_m_000000_0' done.
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0005_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0005_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0005_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459587533587000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:47 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0005_r_000000_0' done.
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0005
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=20666
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=542674
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:48 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 4 residual norm = 40.05612218811405
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459588631735000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3496016443787210906_1341389821_1332635685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.inputVector-work--3562685850467073246 with rwxr-xr-x
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.inputVector/1386459588631735000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3496016443787210906_1341389821_1332635685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.inputVector/1386459588631735000
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.inputVector/1386459588631735000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3496016443787210906_1341389821_1332635685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.inputVector/1386459588631735000
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0006
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0006_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0006_m_000000_0' done.
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0006_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0006_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0006_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459588631404000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:48 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0006_r_000000_0' done.
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0006
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=24816
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=650702
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:49 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 5 residual norm = 28.811037099288388
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459589730274000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-8559627991129275940_1080303054_1332636685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.inputVector-work--753687637254033788 with rwxr-xr-x
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.inputVector/1386459589730274000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-8559627991129275940_1080303054_1332636685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.inputVector/1386459589730274000
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.inputVector/1386459589730274000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-8559627991129275940_1080303054_1332636685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.inputVector/1386459589730274000
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0007
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0007_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0007_m_000000_0' done.
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0007_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0007_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0007_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459589729944000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:49 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0007_r_000000_0' done.
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0007
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=28966
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=758732
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:50 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 6 residual norm = 12.624230911447752
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459590826588000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5664813944798088058_-208278679_1332637685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.inputVector-work--3021788386611670853 with rwxr-xr-x
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.inputVector/1386459590826588000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5664813944798088058_-208278679_1332637685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.inputVector/1386459590826588000
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.inputVector/1386459590826588000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/-5664813944798088058_-208278679_1332637685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.inputVector/1386459590826588000
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0008
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0008_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0008_m_000000_0' done.
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0008_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0008_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:50 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0008_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459590826255000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0008_r_000000_0' done.
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0008
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=33116
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=866762
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:51 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 7 residual norm = 12.284337237917558
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459591916848000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2548117713489060351_832776795_1332638685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.inputVector-work-6057594078643887727 with rwxr-xr-x
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.inputVector/1386459591916848000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2548117713489060351_832776795_1332638685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.inputVector/1386459591916848000
+Dec 7, 2013 6:39:51 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.inputVector/1386459591916848000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2548117713489060351_832776795_1332638685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.inputVector/1386459591916848000
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0009
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0009_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0009_m_000000_0' done.
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0009_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0009_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0009_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459591916517000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:52 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0009_r_000000_0' done.
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0009
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=37266
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=974788
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:53 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 8 residual norm = 6.293253779741702
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459593013115000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2971750726627803727_-1291023443_1332640685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.inputVector-work--8028593833543866132 with rwxr-xr-x
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.inputVector/1386459593013115000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2971750726627803727_-1291023443_1332640685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.inputVector/1386459593013115000
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.inputVector/1386459593013115000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/2971750726627803727_-1291023443_1332640685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.inputVector/1386459593013115000
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0010
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0010_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0010_m_000000_0' done.
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0010_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0010_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0010_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459593012784000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:53 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0010_r_000000_0' done.
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0010
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=41416
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=1082822
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:54 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 9 residual norm = 6.418923415222696
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459594110795000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3760124216157727989_1578149266_1332641685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.inputVector-work--4134132169410544360 with rwxr-xr-x
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.inputVector/1386459594110795000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3760124216157727989_1578149266_1332641685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.inputVector/1386459594110795000
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.inputVector/1386459594110795000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.3164604570684406/mapred/local/archive/3760124216157727989_1578149266_1332641685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.inputVector/1386459594110795000
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0011
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0011_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0011_m_000000_0' done.
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0011_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0011_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0011_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/tmp/1386459594110490000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:54 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0011_r_000000_0' done.
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0011
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=45566
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=1190846
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
+Dec 7, 2013 6:39:55 PM org.slf4j.impl.JCLLoggerAdapter info
+INFO: Conjugate gradient iteration 10 residual norm = 7.652958026860775E-7
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.JobClient copyAndConfigureFiles
+WARNING: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.FileInputFormat listStatus
+INFO: Total input paths to process : 1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Creating 1386459595199780000 in /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.6546143681078413/mapred/local/archive/-536827349045554441_2085595170_1332642685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.inputVector-work--3875335991421829727 with rwxr-xr-x
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager downloadCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.inputVector/1386459595199780000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.6546143681078413/mapred/local/archive/-536827349045554441_2085595170_1332642685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.inputVector/1386459595199780000
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.filecache.TrackerDistributedCacheManager localizePublicCacheObject
+INFO: Cached file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.inputVector/1386459595199780000 as /Users/James/Documents/TEMP/mahout-distribution-0.8/core/target/mahout-TestDistributedConjugateGradientSolverCLI-8688739521875345408/hadoop0.6546143681078413/mapred/local/archive/-536827349045554441_2085595170_1332642685/file/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.inputVector/1386459595199780000
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Running job: job_local_0012
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask runOldMapper
+INFO: numReduceTasks: 1
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: io.sort.mb = 100
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: data buffer = 79691776/99614720
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer <init>
+INFO: record buffer = 262144/327680
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer flush
+INFO: Starting flush of map output
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.MapTask$MapOutputBuffer sortAndSpill
+INFO: Finished spill 0
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0012_m_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/distMatrix/part-00000:0+1147
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0012_m_000000_0' done.
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task initialize
+INFO:  Using ResourceCalculatorPlugin : null
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Merging 1 sorted segments
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Merger$MergeQueue merge
+INFO: Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task done
+INFO: Task:attempt_local_0012_r_000000_0 is done. And is in the process of commiting
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: 
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task commit
+INFO: Task attempt_local_0012_r_000000_0 is allowed to commit now
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.FileOutputCommitter commitTask
+INFO: Saved output of task 'attempt_local_0012_r_000000_0' to file:/tmp/mahout-TestDistributedConjugateGradientSolverCLI-1339194162806819840/testdata/tmpOut/1386459595199431000/DistributedMatrix.times.outputVector
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.LocalJobRunner$Job statusUpdate
+INFO: reduce > reduce
+Dec 7, 2013 6:39:55 PM org.apache.hadoop.mapred.Task sendDone
+INFO: Task 'attempt_local_0012_r_000000_0' done.
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO:  map 100% reduce 100%
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.JobClient monitorAndPrintJob
+INFO: Job complete: job_local_0012
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO: Counters: 18
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Input Format Counters 
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Read=1167
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   File Output Format Counters 
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Bytes Written=200
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   FileSystemCounters
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_READ=50122
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     FILE_BYTES_WRITTEN=1298988
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:   Map-Reduce Framework
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output materialized bytes=90
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input records=10
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce shuffle bytes=0
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Spilled Records=2
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output bytes=82
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Total committed heap usage (bytes)=372514816
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map input bytes=1050
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     SPLIT_RAW_BYTES=162
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine input records=1
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input records=1
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce input groups=1
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Combine output records=1
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Reduce output records=1
+Dec 7, 2013 6:39:56 PM org.apache.hadoop.mapred.Counters log
+INFO:     Map output records=1
