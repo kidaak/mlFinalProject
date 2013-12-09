@@ -21,35 +21,38 @@ def plot(mtx,labels):
 def main():
 	f= sio.loadmat('/home/dmitriy/workspace/MLFinalProject/MatlabFiles/finalVectors.mat')
 
-	full = np.nan_to_num(np.matrix(f['finalVectors']))
-	fullSplit = np.array_split(full, 180)
+	try:
+		full = np.nan_to_num(np.matrix(f['finalVectors']))
+		fullSplit = np.array_split(full, 180)
 
-	print("Done Reading")
-	mtx = fullSplit[0]
-	print(len(mtx))
-	mtx /= np.max(np.abs(mtx),axis=0)
-	for clusters in range(2,25):
-		errors = 0
-		num_clusters = clusters
-		ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
-		ClusteringKmeans.fit(mtx)
-		result = ClusteringKmeans.labels_
-		#silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
-		plot(mtx,result)
-		print("Clusters:", clusters, "Retest Error:", errors)
+		print("Done Reading")
+		mtx = fullSplit[0]
+		print(len(mtx))
+		mtx /= np.max(np.abs(mtx),axis=0)
+		for clusters in range(2,25):
+			errors = 0
+			num_clusters = clusters
+			ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
+			ClusteringKmeans.fit(mtx)
+			result = ClusteringKmeans.labels_
+			#silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
+			plot(mtx,result)
+			print("Clusters:", clusters, "Retest Error:", errors)
 
-	# num_clusters = 3
-	# ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
-	# ClusteringKmeans.fit(mtx)
-	# result = ClusteringKmeans.labels_
-	# silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
+		# num_clusters = 3
+		# ClusteringKmeans = MiniBatchKMeans(n_clusters=num_clusters)
+		# ClusteringKmeans.fit(mtx)
+		# result = ClusteringKmeans.labels_
+		# silhouette = metrics.silhouette_score(mtx,result,metric='euclidean')
 
-	# readable = [0]*num_clusters
-	# for x in range(0, len(result)):
-	# 	readable[result[x]] += 1
+		# readable = [0]*num_clusters
+		# for x in range(0, len(result)):
+		# 	readable[result[x]] += 1
 
 
-	# print(readable)
-	# print(silhouette)
+		# print(readable)
+		# print(silhouette)
+	finally:
+		f.close()
 
 main()

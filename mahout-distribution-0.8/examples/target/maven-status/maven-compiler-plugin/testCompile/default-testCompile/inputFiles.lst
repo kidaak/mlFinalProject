@@ -1,5 +1,5 @@
-/Users/James/Documents/TEMP/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java
-/Users/James/Documents/TEMP/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java
-/Users/James/Documents/TEMP/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java
-/Users/James/Documents/TEMP/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/LogisticModelParametersTest.java
-/Users/James/Documents/TEMP/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/clustering/display/ClustersFilterTest.java
+/home/dmitriy/workspace/MLFinalProject/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java
+/home/dmitriy/workspace/MLFinalProject/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/clustering/display/ClustersFilterTest.java
+/home/dmitriy/workspace/MLFinalProject/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/LogisticModelParametersTest.java
+/home/dmitriy/workspace/MLFinalProject/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java
+/home/dmitriy/workspace/MLFinalProject/mahout-distribution-0.8/examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java

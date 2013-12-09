@@ -2,3 +2,4 @@ train_triplets.txt
 finishedUsers.txt
 userFeatureVectors.txt
 MillionSongSubset/
+mahout-distribution-0.8/
