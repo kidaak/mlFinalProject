@@ -19,7 +19,7 @@ try:
 finally:
 	sMap.close()
 
-for clusters in range(3,25):
+for clusters in range(2,25):
 	clusterDictionary = {}
 	clustering = open('james_songIDandCluster/'+str(clusters)+'clusters.csv', 'r')
 	try:
@@ -49,7 +49,7 @@ for clusters in range(3,25):
 					strippedPlayCount = splitSong[1][:-1]
 					clusterCount[songCluster]+=int(strippedPlayCount)
 			for i in range(0,len(clusterCount)):
-				output.write(splitLine[0]+","+str(i)+','+str(clusterCount[i])+"\n")
+				output.write(str(i)+","+str(i)+','+str(clusterCount[i])+"\n")
 			counter +=1 
 	finally:
 		user.close()
