@@ -49,7 +49,7 @@ for clusters in range(2,25):
 					strippedPlayCount = splitSong[1][:-1]
 					clusterCount[songCluster]+=int(strippedPlayCount)
 			for i in range(0,len(clusterCount)):
-				output.write(str(i)+","+str(i)+','+str(clusterCount[i])+"\n")
+				output.write(str(counter)+","+str(i)+','+str(clusterCount[i])+"\n")
 			counter +=1 
 	finally:
 		user.close()
