@@ -24,18 +24,19 @@ public class GenericUserBasedRecommender1 {
 	      // Create a data source from the CSV file
 	      
 		  String fileName;
-		  double[] scores = new double[23];
-	      for(int i = 2; i < 25; i++)
+		  double[] scores = new double[50];
+	      for(int i = 2; i < 50; i++)
 	      {
 	    	  fileName = "data/" + i + "clusters.csv";
 	    	  scores[i-2] = evaluateFile(fileName);
 	      }
 	      
-		  System.out.println(evaluateFile("data/2clusters.csv"));
+		  //System.out.println(evaluateFile("data/2clusters.csv"));
 		  
 	      for(int j = 0; j < scores.length; j++)
 	      {
-	    	  System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
+	    	  //System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
+	    	  System.out.println(scores[j]);
 	      }
 	      
 	      /*
