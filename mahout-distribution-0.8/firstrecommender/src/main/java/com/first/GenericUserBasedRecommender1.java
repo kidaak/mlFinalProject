@@ -20,24 +20,75 @@ import org.apache.mahout.common.RandomUtils;
 public class GenericUserBasedRecommender1 {
 	
 	  public static void main(String[] args) throws Exception {
-		  RandomUtils.useTestSeed();
+		  //RandomUtils.useTestSeed();
 	      // Create a data source from the CSV file
 	      
 		  String fileName;
-		  double[] scores = new double[50];
-	      for(int i = 2; i < 50; i++)
+		  
+		  double[] scores1 = new double[48];
+		  for(int h = 0; h < 10; h++)
+		  {
+			  for(int i = 2; i < 50; i++)
+			  {
+				  fileName = "data/gmm100Normalized/" + i + "clusters.csv";
+				  scores1[i-2] += evaluateFile(fileName);
+			  }
+	      }
+	      
+	      System.out.println("==GMM100NORMALIZED==");
+	      
+	      for(int j = 0; j < scores1.length; j++)
 	      {
-	    	  fileName = "data/" + i + "clusters.csv";
-	    	  scores[i-2] = evaluateFile(fileName);
+	          scores1[j] = (scores1[j] / 10);
+	    	  //System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
+	    	  System.out.println(scores1[j]);
+	      }
+	      
+	      System.out.println();
+	      
+	      double[] scores2 = new double[48];
+	      for(int h = 0; h < 10; h++)
+	      {
+			  for(int i = 2; i < 50; i++)
+			  {
+				  fileName = "data/KMeans100Normalized/" + i + "clusters.csv";
+				  scores2[i-2] += evaluateFile(fileName);
+			  }
+	      }
+	      
+	      System.out.println("==KMEANS100NORMALIZED==");
+	      
+	      for(int j = 0; j < scores2.length; j++)
+	      {
+	          scores2[j] = (scores2[j] / 10);
+	    	  //System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
+	    	  System.out.println(scores2[j]);
+	      }
+	      
+	      System.out.println();
+	      
+	      double[] scores3 = new double[48];
+	      for(int h = 0; h < 10; h++)
+	      {
+			  for(int i = 2; i < 50; i++)
+			  {
+				  fileName = "data/spectral100Normalized/" + i + "clusters.csv";
+				  scores3[i-2] += evaluateFile(fileName);
+			  }
+	      }
+	      
+	      System.out.println("==SPECTRAL100NORMALIZED==");
+	      
+	      for(int j = 0; j < scores3.length; j++)
+	      {
+	          scores3[j] = (scores3[j] / 10);
+	    	  //System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
+	    	  System.out.println(scores3[j]);
 	      }
 	      
 		  //System.out.println(evaluateFile("data/2clusters.csv"));
 		  
-	      for(int j = 0; j < scores.length; j++)
-	      {
-	    	  //System.out.println("Error for " + (j+2) + " Clusters : " + scores[j]);
-	    	  System.out.println(scores[j]);
-	      }
+	      
 	      
 	      /*
 	      UserSimilarity userSimilarity = new PearsonCorrelationSimilarity(dataModel);
@@ -59,7 +110,7 @@ public class GenericUserBasedRecommender1 {
 	  public static double evaluateFile(String f) throws TasteException, IOException
 	  {
 		  File userPreferencesFile = new File(f);
-		  System.out.println(f);
+		  //System.out.println(f);
 		  DataModel dataModel = new FileDataModel(userPreferencesFile);
 	      
 	      RecommenderEvaluator evaluator = new AverageAbsoluteDifferenceRecommenderEvaluator();
