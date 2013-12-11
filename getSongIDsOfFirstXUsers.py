@@ -3,7 +3,7 @@ import scipy.io as sio
 from sklearn import metrics
 import numpy as np
 
-LIMIT = 1000
+LIMIT = 500
 userSongs = {}
 songMap = {}
 songPosition = {}

@@ -2,6 +2,9 @@ import scipy.sparse as sparse
 import scipy.io as sio
 import numpy as np
 
+#spectral, KMeans or gmm
+TYPEOFCLUSTERING = "spectral"
+
 LIMIT = 100
 songPosition = {}
 songMap = {}
@@ -19,20 +22,25 @@ try:
 finally:
 	sMap.close()
 
-for clusters in range(2,25):
+for clusters in range(24,50):
 	clusterDictionary = {}
-	clustering = open('james_songIDandCluster/'+str(clusters)+'clusters.csv', 'r')
+	clusterLimit = [0]*clusters
+	clustering = open('james_songIDandCluster/'+TYPEOFCLUSTERING+str(LIMIT)+"/"+str(clusters)+'clusters.csv', 'r')
 	try:
 		for line in clustering:
 			splitIDandCluster = line.split(',')
 			songStringID = songPosition[int(splitIDandCluster[0])]
 			songMappedID = songMap[songStringID]
 			clusterDictionary[int(songMappedID)] = int(splitIDandCluster[1])
+			#FOR PRINTING CLUSTERS
+			# if clusterLimit[int(splitIDandCluster[1])] < 5:
+			# 	print songStringID, splitIDandCluster[1]
+			# 	clusterLimit[int(splitIDandCluster[1])] +=1
 	finally:
 		clustering.close()
 
 	user = open('userFeatureVectors.txt', 'r')
-	output = open('userClusterFeatureVectors/'+str(clusters)+'clusters.csv', 'w')
+	output = open('userClusterFeatureVectors/'+TYPEOFCLUSTERING+str(LIMIT)+"/"+str(clusters)+'clusters.csv', 'w')
 	try:
 		counter = 0
 		for line in user:
