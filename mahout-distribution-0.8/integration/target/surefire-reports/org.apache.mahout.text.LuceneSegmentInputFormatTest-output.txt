@@ -1,8 +1,0 @@
-Dec 7, 2013 6:22:46 PM org.slf4j.impl.JCLLoggerAdapter info
-INFO: Created 1062 byte input split for index 'file:/tmp/mahout-LuceneSegmentInputFormatTest-3063399826641906688/index1' segment _0
-Dec 7, 2013 6:22:46 PM org.slf4j.impl.JCLLoggerAdapter info
-INFO: Created 1062 byte input split for index 'file:/tmp/mahout-LuceneSegmentInputFormatTest-3063399826641906688/index1' segment _1
-Dec 7, 2013 6:22:46 PM org.slf4j.impl.JCLLoggerAdapter info
-INFO: Created 1062 byte input split for index 'file:/tmp/mahout-LuceneSegmentInputFormatTest-3063399826641906688/index1' segment _2
-Dec 7, 2013 6:22:46 PM org.slf4j.impl.JCLLoggerAdapter info
-INFO: Deleting file:/tmp/mahout-LuceneSegmentInputFormatTest-3063399826641906688/index1
